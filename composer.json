@@ -1,5 +1,5 @@
 {
-  "name": "bereank/coupler_pol",
+  "name": "bereank/coupler",
   "description": "A dedicated Laravel-PHP library crafted exclusively for seamless integration with the SAP Business One Service Layer API.",
   "type": "library",
   "license": "MIT",
