@@ -1,6 +1,6 @@
 <?php
 
-namespace BereanK\Coupler\Helpers;
+namespace BereanK\Coupler;
 
 /**
  * Service class contains methods to perform CRUD actions on a service.

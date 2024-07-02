@@ -1,8 +1,8 @@
 <?php
 
-namespace BereanK\Coupler\Exception;
+namespace BereanK\Coupler;
 
-use BereanK\Coupler\Helpers\Response;
+use BereanK\Coupler\Response;
 
 
 
@@ -26,7 +26,7 @@ class SAPException extends \Exception
 
         if ($response->getHeaders('Content-Type') == 'application/json') {
             
-            $message = $response->getJson()->error->message;
+            $message = $response->getJson()->error->message->value;
             $erroCode = $response->getJson()->error->code;
         }
 

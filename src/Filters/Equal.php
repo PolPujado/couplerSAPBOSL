@@ -1,6 +1,7 @@
 <?php
 
 namespace BereanK\Coupler\Filters;
+
 use BereanK\Coupler\Filters\Filter;
 
 class Equal extends Filter{

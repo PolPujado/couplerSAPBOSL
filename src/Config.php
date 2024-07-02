@@ -1,6 +1,6 @@
 <?php
 
-namespace BereanK\Coupler\Helpers;
+namespace BereanK\Coupler;
 
 class Config
 {

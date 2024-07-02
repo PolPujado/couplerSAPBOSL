@@ -1,8 +1,8 @@
 <?php
 
-namespace BereanK\Coupler\Helpers;
+namespace BereanK\Coupler;
 
-use BereanK\Coupler\Exception\SAPException;
+use BereanK\Coupler\SAPException;
 
 class Query
 {
